@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script defer src="./js/ranking.js"></script>
+    <script defer src="./js/palabra.js"></script>
+    <script defer src="./js/main.js"></script>
+
+    <title>Ahorcado</title>
+</head>
+<body>
+    <main>
+
+        <div class="container">
+
+            <div class="row text-center">
+                <h1>Juego de Ahorcado</h1>
+            </div>
+            <br>
+            <div class="row">
+                <button type="button" class="btn btn-success" id="btnNuevoJuego">Nuevo Juego</button>
+            </div>
+            <div class="row" id="divNuevoJuego"> 
+                <div class="row m-5" id="divUsuario">
+                    <div class="col-8">
+                        <input class="form-control" type="text" placeholder="Ingrese su nombre" aria-label="Pepe" id="txtUsuario">
+                    </div>
+                    <div class="col-4">        
+                        <button type="button" class="btn btn-info" id="btnIngresarUsuario">Continuar</button>        
+                    </div>  
+                </div>
+                <div class="row" id="divAhorcado">
+                    <div class="row">
+                        <div id="divBotonera" class="botonera">
+                            <button class="btnLetra">A</button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row m-5" id="divAdivinar">
+                        <div class="col-8">
+                            <input class="form-control" type="text" placeholder="Adivine la palabra" aria-label="Pepe" id="txtPalabra">
+                        </div>
+                        <div class="col-4">        
+                            <button type="button" class="btn btn-danger" id="btnIngresarPalabra">Adivinar</button>        
+                        </div>  
+                    </div>
+                    <br>
+                    <div class="row" >
+                        <div id="divCoincidencias" style="text-align: center;font-size: 150px;">                    
+                        </div>                  
+                    </div>
+                    <div class="row m-5" >
+                        <div class="col-6">
+                            <h4>Cantidad de Intentos Restantes</h4>
+                        </div>
+                        <div class="col-3" id="divCantidadIntentosRestantes">                    
+                        </div>   
+                        <div class="col-3">        
+                            <button type="button" class="btn btn-warning" id="btnSolicitarPista">Solicitar Pista!</button>        
+                        </div>                 
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row" id="divRanking">
+                <h3>Ranking</h3>
+                <input class="form-control" type="text" id="txtRankingBusqueda" placeholder="Búsqueda por palabra, usuario o intentos..">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                          <th scope="col" id="thPuesto">#</th>
+                          <th scope="col" id="thUsuario">Usuario</th>
+                          <th scope="col" id="thIntentos">Intentos</th>
+                          <th scope="col" id="thPalabra">Palabra</th> 
+                        </tr>
+                    </thead>
+                    <tbody id="tBodyRanking">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-light text-center">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          Sergio Baldessari
+        </div>
+    </footer>
+</body>
+</html>

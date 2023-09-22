@@ -1,0 +1,17 @@
+[
+    {"palabra": "naranja", "pista": "Es un color que el nombre es de una fruta", "id": 1, "cantidadLetras": 7},
+    {"palabra": "amarillo", "pista": "Es un color que conforma la bandera de colombia", "id": 2, "cantidadLetras": 8},
+    {"palabra": "verde", "pista": "Es un color que conforma la bandera de Mexico", "id": 3, "cantidadLetras": 5},
+    {"palabra": "azul", "pista": "Es un color que tambien es el nombre de una canción", "id": 4, "cantidadLetras": 4},
+    {"palabra": "oojo", "pista": "Es un color que tambien distingue al rey de copas", "id": 5, "cantidadLetras": 4},
+    {"palabra": "gris", "pista": "Es un color que se usa en los trajes de vestir", "id": 6, "cantidadLetras": 4},
+    {"palabra": "negro", "pista": "Es un color que se usa para los velorios", "id": 7, "cantidadLetras": 5},
+    {"palabra": "blanco", "pista": "Es un color que en haxadecimal es #FFFFFF", "id": 8, "cantidadLetras": 6},
+    {"palabra": "celeste", "pista": "Es un color que conforma la bandera de Argentina", "id": 9, "cantidadLetras": 7},
+    {"palabra": "frutilla", "pista": "Es una fruta que se utiliza como decoración en las tortas", "id": 10, "cantidadLetras": 8},
+    {"palabra": "mandarina", "pista": "Es una fruta que se conforma por gajos", "id": 11, "cantidadLetras": 9},
+    {"palabra": "banana", "pista": "Es una fruta que tiene mucho potasio", "id": 12, "cantidadLetras": 6},
+    {"palabra": "manzana", "pista": "Es una fruta que utilizó newton para un descubrimiento", "id": 13, "cantidadLetras": 7},
+    {"palabra": "pomelo", "pista": "Es una fruta que se caracteriza por ser muy ácida", "id": 14, "cantidadLetras": 6},
+    {"palabra": "sandia", "pista": "Es una fruta que se caractetiza por su gran tamaño", "id": 15, "cantidadLetras": 6}
+]
