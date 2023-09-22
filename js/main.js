@@ -70,7 +70,7 @@ function iniciarJuego(){
     }else{
         ocultarElemento("divUsuario")
 
-        fetch('/data/data.json')
+        fetch('./data/data.json')
             .then(respuesta => respuesta.json())
             .then(data => {
 
